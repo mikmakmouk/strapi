@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_schedule_schedules",
+  "info": {
+    "displayName": "schedule",
+    "icon": "bulletList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "string"
+    },
+    "from": {
+      "type": "time"
+    },
+    "to": {
+      "type": "time"
+    },
+    "days": {
+      "type": "enumeration",
+      "enum": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "required": true,
+      "default": "Monday"
+    }
+  }
+}
